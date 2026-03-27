@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+ 
+        <link rel="icon" href="plane.png">
+        <style>
+            *{
+                /* margin: 0;
+                padding: 0; */
+            }
+            button{
+                font-size: 20px;
+                background-color: white;
+                border-color: green;
+                padding: 20px;
+                margin: 20px;
+            }
+             .withHover:hover{
+                background-color: green;
+            }
+                .bullets{
+                    font-size: 20px;
+                    background-color: white;
+                    border-color: green;
+                    /* padding: 20px; */
+                    margin: 20px;
+                }
+                .bullets:hover{
+                    background-color: yellow;
+                }
+                
+                div{
+                    background-color: white;
+                    border-color: green;
+                    /* padding: 20px; */
+                    margin: 50px;
+                }
+                h1{
+                    margin: 0px;
+                }
+                img{
+                    margin: 0px;
+                }
+        </style>
+   
+
+    </head>
+    <body>
+        
+        
+        
+        <div>
+            <h2>Before hover</h2> <h2>After hover</h2>
+            <button class="noHover">This is a link</button>
+            
+            <button class="withHover">This is a link</button>
+        </div>
+        
+        
+        <div class="bullets">
+            <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Matrix</li>
+            </ol>
+        </div>
+        <div>
+            <h1>This is a heading
+                <img src="plane.png" alt="Plane Image" style="position: absolute; z-index: -1; width: 200px; height: auto;">
+            </h1>
+
+            <p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+                
+        </div>
+
+    </body>
+</html>
